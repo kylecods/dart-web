@@ -33,9 +33,9 @@ void addToDoItem(Event e) {
     toDoInput.value = '';
     toDoList.children.add(newToDo);
   } else {
-    toDoInput.style.border = '2px solid green';
+    toDoInput.style.border = '2px solid red';
     errors.removeAttribute('hidden');
-    errors.text = 'Cannot accept an empty input field';
-    errors.style.color = 'blue';
+    errors.text = 'Ensure you dont send an empty input.';
+    errors.style.color = 'red';
   }
 }
