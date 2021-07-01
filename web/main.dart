@@ -35,7 +35,7 @@ void addToDoItem(Event e) {
   } else {
     toDoInput.style.border = '2px solid red';
     errors.removeAttribute('hidden');
-    errors.text = 'Cannot accept empty strings';
+    errors.text = 'Cannot accept an empty input field';
     errors.style.color = 'red';
   }
 }
