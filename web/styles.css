@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: whitesmoke;
+  margin: 15px;
+  color: black;
+}
+
+#to-do-input {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 5px 0px 5px 5px;
+  width: 100%;
+  border: 2px solid silver;
+  background-color: white;
+}
+
+#to-do-list {
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+}
+
+#to-do-list li{
+  padding: 5px 0px 5px 5px;
+  border-bottom: 1px dotted silver;
+}
+
+#next {
+  margin: 10px 0px;
+}
